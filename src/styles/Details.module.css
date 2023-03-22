@@ -1,0 +1,63 @@
+.Details {
+  display: flex;
+  flex-direction: column;
+  background-color: #4369b2;
+  min-height: 100vh;
+  color: white;
+  font-family: 'Cabin', sans-serif;
+}
+
+.flag {
+  width: 100%;
+}
+
+.name {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 2.5rem;
+}
+
+.details {
+  list-style-type: none;
+  padding: 0 20px;
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.detailName {
+  font-weight: bold;
+}
+
+.detailValue {
+  font-size: 1.5rem;
+}
+
+.timezone::after {
+  content: ', ';
+}
+
+.timezone:last-child::after {
+  content: '';
+}
+
+@media screen and (min-width: 768px) {
+  .countryDetails {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .flag {
+    width: 50%;
+    max-width: 500px;
+  }
+
+  .flagContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

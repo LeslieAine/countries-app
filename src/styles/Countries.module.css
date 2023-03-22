@@ -1,0 +1,30 @@
+.countries {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  list-style-type: none;
+  padding: 0;
+}
+
+.title {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+.select {
+  width: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+}
+
+.dropdown {
+  margin: 0 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .countries {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
