@@ -1,7 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
-import { useEffect } from 'react';
 import { fetchCountries } from '../redux/countries/countriesSlice';
 import styles from '../styles/Details.module.css';
 
