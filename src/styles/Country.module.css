@@ -1,0 +1,55 @@
+.country {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  min-height: 200px;
+  height: 100%;
+  font-family: 'Cabin', sans-serif;
+  font-size: 1.2rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.country:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.flag {
+  width: 50%;
+}
+
+.countryName {
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.link:nth-child(4n),
+.link:nth-child(4n+1) {
+  background-color: #ff69b4;
+}
+
+.link:nth-child(4n+2),
+.link:nth-child(4n+3) {
+  background-color: #ffb6c1;
+}
+
+@media (min-width: 768px) {
+  .link:nth-child(6n+1),
+  .link:nth-child(6n+2),
+  .link:nth-child(6n+3) {
+    background-color: #ff69b4;
+  }
+
+  .link:nth-child(6n+4),
+  .link:nth-child(6n+5),
+  .link:nth-child(6n+6) {
+    background-color: #ffb6c1;
+  }
+}
