@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar should render the component 1`] = `
+<div
+  className="navbar"
+>
+  <a
+    aria-current="page"
+    className="link active"
+    href="/"
+    onClick={[Function]}
+  />
+</div>
+`;
