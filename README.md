@@ -84,7 +84,7 @@ This project was built using these technologies.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Here](https://LeslieAine.github.io)
+- [Here](https://leslieaine.github.io/countries-app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
