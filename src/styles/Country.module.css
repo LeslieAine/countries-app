@@ -32,24 +32,24 @@
 
 .link:nth-child(4n),
 .link:nth-child(4n+1) {
-  background-color: #4369b2;
+  background-color: #ff69b4;
 }
 
 .link:nth-child(4n+2),
 .link:nth-child(4n+3) {
-  background-color: #3f62a4;
+  background-color: #ffb6c1;
 }
 
 @media (min-width: 768px) {
   .link:nth-child(6n+1),
   .link:nth-child(6n+2),
   .link:nth-child(6n+3) {
-    background-color: #4369b2;
+    background-color: #ff69b4;
   }
 
   .link:nth-child(6n+4),
   .link:nth-child(6n+5),
   .link:nth-child(6n+6) {
-    background-color: #3f62a4;
+    background-color: #ffb6c1;
   }
 }

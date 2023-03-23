@@ -1,3 +1,4 @@
+import React from 'react';
 import { useParams } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { useEffect } from 'react';
@@ -32,6 +33,11 @@ const Details = () => {
             <span className={styles.detailValue}>{country.capital}</span>
           </li>
           <li className={styles.detail}>
+            <span className={styles.detailName}>Subregion:</span>
+            {' '}
+            <span className={styles.detailValue}>{country.subregion}</span>
+          </li>
+          <li className={styles.detail}>
             <span className={styles.detailName}>Population:</span>
             {' '}
             <span className={styles.detailValue}>{country.population.toLocaleString()}</span>
@@ -53,6 +59,11 @@ const Details = () => {
                 <span key={timezone} className={styles.timezone}>{timezone}</span>
               ))}
             </span>
+          </li>
+          <li className={styles.detail}>
+            <span className={styles.detailName}>Maps:</span>
+            {' '}
+            <span className={styles.detailValue}>{country.maps}</span>
           </li>
         </ul>
       </div>
