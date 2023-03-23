@@ -45,6 +45,7 @@ After you're finished please remove all the comments and instructions!
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -85,6 +86,7 @@ This project was built using these technologies.
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Here](https://leslieaine.github.io/countries-app)
+- You can also watch as I take you through the project [here](https://www.loom.com/share/c07cc42c4b02423691f4f0643bd24997)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,9 +152,9 @@ To run tests, run the following command:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Reducers and actions ]**
-- [ ] **[Redux in components ]**
-- [ ] **[Connect to API]**
+- **User can filter countries by continent**
+- **User can see all countries on the home page**
+- **User can see a country's details when they click on it**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -172,6 +174,14 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project or if it helped you, please give it a ⭐️!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) for the original design. You can see the original design [here](<https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)>).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
